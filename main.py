@@ -73,4 +73,4 @@ def delete_item(employee_id: int, session: Session = Depends(get_session)):
 
  # at last, the bottom of the file/module
 if __name__ == "__main__":
-    uvicorn.run(app, host="127.0.0.1", port=5049)
+    uvicorn.run(app, host="127.0.0.1")
